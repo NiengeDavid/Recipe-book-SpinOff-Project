@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Recipe Book</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        background-color: #333;
+        text-align: center;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      nav ul li a:hover {
+        color: rgb(49, 37, 37);
+      }
+
+      .recipe {
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+
+      .recipe img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      h2 {
+        color: #333;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 10px 0;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+
+      ul,
+      ol {
+        margin: 10px 0;
+        padding-left: 20px;
+      }
+
+      a {
+        color: #0078d4;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Recipe Book</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#recipe1">Recipe 1</a></li>
+        <li><a href="#recipe2">Recipe 2</a></li>
+        <li><a href="#recipe3">Recipe 3</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="recipe" id="recipe1">
+        <img
+          style="width: 200px; height: auto"
+          src="https://img.freepik.com/free-photo/fresh-pasta-with-hearty-bolognese-parmesan-cheese-generated-by-ai_188544-9469.jpg?w=1380&t=st=1697028462~exp=1697029062~hmac=d010c2bba76293d9f52c85ea0e46fb6198c81b2c8cd2743b9677963750f16554"
+          alt="Spaghetti"
+        />
+        <h2>Spaghetti Carbonara</h2>
+        <table>
+          <tr>
+            <th>Ingredients</th>
+          </tr>
+          <tr>
+            <td>Pasta</td>
+          </tr>
+          <tr>
+            <td>Eggs</td>
+          </tr>
+          <tr>
+            <td>Parmesan cheese</td>
+          </tr>
+          <tr>
+            <td>Pancetta or bacon</td>
+          </tr>
+        </table>
+        <h3>Details</h3>
+        <p>A classic Italian pasta dish that's simple and delicious.</p>
+        <h3>Steps</h3>
+        <ol>
+          <li>Boil the pasta.</li>
+          <li>Fry the pancetta or bacon.</li>
+          <li>Whisk eggs and cheese.</li>
+          <li>Mix everything together and serve.</li>
+        </ol>
+        <p>
+          Recipe source:
+          <a
+            target="_blank"
+            href="https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe"
+            >BBCGoodFood</a
+          >
+        </p>
+      </section>
+
+      <section class="recipe" id="recipe2">
+        <img
+          style="width: 200px; height: auto"
+          src="https://img.freepik.com/free-photo/pizza-pepperoni-table_140725-5396.jpg?w=1060&t=st=1697028805~exp=1697029405~hmac=a1b9b91308167fd0a1ee5fa02fabf6294e867c8fb22d1bf42cc1fccb39637de2"
+          alt="Pizza"
+        />
+        <h2>Homemade Pizza</h2>
+        <table>
+          <tr>
+            <th>Ingredients</th>
+          </tr>
+          <tr>
+            <td>Pizza dough</td>
+          </tr>
+          <tr>
+            <td>Tomato sauce</td>
+          </tr>
+          <tr>
+            <td>Cheese</td>
+          </tr>
+          <tr>
+            <td>Toppings of your choice</td>
+          </tr>
+        </table>
+        <h3>Details</h3>
+        <p>Make your own pizza with your favorite toppings.</p>
+        <h3>Steps</h3>
+        <ol>
+          <li>Roll out the dough.</li>
+          <li>Add sauce, cheese, and toppings.</li>
+          <li>Bake in the oven.</li>
+          <li>Enjoy your homemade pizza!</li>
+        </ol>
+        <p>
+          Recipe source:
+          <a
+            target="_blank"
+            href="https://recipes.timesofindia.com/recipes/pizza/rs56933159.cms"
+            >Times Food</a
+          >
+        </p>
+      </section>
+
+      <section class="recipe" id="recipe3">
+        <img
+          style="width: 200px; height: auto"
+          src="https://img.freepik.com/free-photo/front-view-delicious-pancakes-with-fruits-berries-dark-surface-dessert-fruit-cake_140725-81897.jpg?w=1060&t=st=1697028996~exp=1697029596~hmac=dbca2e98508dfb22f5b0067d9f0be93bb162bd55da93e5410dceb9d2f4de9ee0"
+          alt="Pancakes"
+        />
+        <h2>Fluffy Pancakes</h2>
+        <table>
+          <tr>
+            <th>Ingredients</th>
+          </tr>
+          <tr>
+            <td>Flour</td>
+          </tr>
+          <tr>
+            <td>Milk</td>
+          </tr>
+          <tr>
+            <td>Eggs</td>
+          </tr>
+          <tr>
+            <td>Sugar</td>
+          </tr>
+        </table>
+        <h3>Details</h3>
+        <p>Enjoy delicious, fluffy pancakes for breakfast.</p>
+        <h3>Steps</h3>
+        <ol>
+          <li>Mix the dry and wet ingredients separately.</li>
+          <li>Combine and cook on a griddle.</li>
+          <li>Serve with your favorite toppings.</li>
+        </ol>
+        <p>
+          Recipe source:
+          <a
+            target="_blank"
+            href="https://cafedelites.com/best-fluffy-pancakes/"
+            >Cafe Delites</a
+          >
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
